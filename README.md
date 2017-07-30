@@ -7,3 +7,7 @@ Packages JMeter in a docker container
 ```bash
 docker run -i -t --rm -v $(pwd):/root hauptmedia/jmeter bin/jmeter -n -t /root/all_in_one_001.jmx
 ```
+
+# Credits
+
+Thanks to https://github.com/hauptmedia/docker-jmeter
